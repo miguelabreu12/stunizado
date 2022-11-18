@@ -108,7 +108,7 @@
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="100px"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
@@ -123,7 +123,7 @@
     <EditText
         android:id="@+id/editTextTextPersonName2"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="100px"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
@@ -138,7 +138,7 @@
     <EditText
         android:id="@+id/editTextTextPersonName3"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="100px"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
@@ -153,7 +153,7 @@
     <EditText
         android:id="@+id/editTextTextPersonName4"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="100px"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
@@ -168,7 +168,7 @@
     <EditText
         android:id="@+id/editTextTextPersonName5"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="100px"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"

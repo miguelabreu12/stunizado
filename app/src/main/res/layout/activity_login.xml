@@ -17,18 +17,21 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextSenha" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName12" />
 
     <TextView
         android:id="@+id/senha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="331dp"
         android:text="Senha "
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextemail"
-        tools:layout_editor_absoluteX="18dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName11" />
 
     <TextView
         android:id="@+id/email"
@@ -49,43 +52,41 @@
         android:id="@+id/login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
         android:fontFamily="@font/bebas_neue"
         android:text=" Login"
         android:textColor="#BC0CDA"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="107dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextemail"
+        android:id="@+id/editTextTextPersonName11"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:textColor="@color/white"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         android:ems="10"
-        android:background="@drawable/background_texto"
-        android:hint="digite seu email"
+        android:hint="Digite seu email"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/email" />
 
     <EditText
-        android:id="@+id/editTextTextSenha"
+        android:id="@+id/editTextTextPersonName12"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:textColor="@color/white"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         android:ems="10"
-        android:background="@drawable/background_texto"
-        android:hint="digite sua senha"
+        android:hint="Digite sua senha"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/senha" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
