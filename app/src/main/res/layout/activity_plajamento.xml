@@ -42,14 +42,6 @@
                 android:inputType="textPersonName" />
 
             <EditText
-                android:id="@+id/etdescricao"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="Descrição"
-                android:inputType="textPersonName" />
-
-            <EditText
                 android:id="@+id/etnovoplanejamento"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -63,14 +55,6 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="Data de inicio"
-                android:inputType="textPersonName" />
-
-            <EditText
-                android:id="@+id/editTextTextPersonName18"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="Data de fim"
                 android:inputType="textPersonName" />
 
             <EditText
