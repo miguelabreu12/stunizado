@@ -49,6 +49,38 @@
                 android:hint="Descrição"
                 android:inputType="textPersonName" />
 
+            <EditText
+                android:id="@+id/etnovoplanejamento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Novo Planejamento"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Data de inicio"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Data de fim"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Data da prova"
+                android:inputType="textPersonName" />
+
             <CheckBox
                 android:id="@+id/checkBox7"
                 android:layout_width="match_parent"
@@ -72,28 +104,28 @@
 
             <CheckBox
                 android:id="@+id/checkBox4"
-                android:layout_width="0dp"
-                android:layout_height="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="História" />
 
             <CheckBox
                 android:id="@+id/checkBox5"
-                android:layout_width="0dp"
-                android:layout_height="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="Geografia" />
 
             <CheckBox
                 android:id="@+id/checkBox"
-                android:layout_width="0dp"
-                android:layout_height="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:text="Português" />
 
             <CheckBox
                 android:id="@+id/checkBox6"
-                android:layout_width="0dp"
-                android:layout_height="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="Química" />
         </LinearLayout>
