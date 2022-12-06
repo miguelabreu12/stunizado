@@ -1,14 +1,14 @@
-package com.example.stunizado;
+package com.stunizado.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Planejamento extends AppCompatActivity {
+public class PerfilActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_plajamento);
+        setContentView(R.layout.activity_perfil);
     }
 }

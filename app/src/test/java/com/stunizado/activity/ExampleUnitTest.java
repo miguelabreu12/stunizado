@@ -1,4 +1,4 @@
-package com.example.stunizado;
+package com.stunizado.activity;
 
 import org.junit.Test;
 

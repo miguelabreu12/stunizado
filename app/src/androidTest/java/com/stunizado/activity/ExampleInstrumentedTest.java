@@ -1,4 +1,4 @@
-package com.example.stunizado;
+package com.stunizado.activity;
 
 import android.content.Context;
 
