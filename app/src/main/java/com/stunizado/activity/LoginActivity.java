@@ -19,6 +19,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.stunizado.R;
+import com.stunizado.model.LoginViewModel;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -87,14 +90,14 @@ public class LoginActivity extends AppCompatActivity {
                         if(aBoolean) {
 
                             // guarda os dados de login e senha dentro da app
-                            Config.setLogin(LoginActivity.this, email);
-                            Config.setPassword(LoginActivity.this, senha);
+                            com.stunizado.produtos.util.Config.setLogin(LoginActivity.this, email);
+                            com.stunizado.produtos.util.Config.setPassword(LoginActivity.this, senha);
 
                             // exibe uma mensagem indicando que o login deu certo
                             Toast.makeText(LoginActivity.this, "Login realizado com sucesso", Toast.LENGTH_LONG).show();
 
                             // Navega para tela principal
-                            Intent i = new Intent(LoginActivity.this, HomeActivity.class);
+                            Intent i = new Intent(LoginActivity.this, HomePlanejamentoActivity.class);
                             startActivity(i);
                         }
                         else {
@@ -110,11 +113,11 @@ public class LoginActivity extends AppCompatActivity {
 
         // Se o usuário ainda não tem login, então ele pode ir para a tela de cadastro e criar um
         // novo usuário
-        Button btnRegisterNewUser = findViewById(R.id.btnRegisterNewUser);
+        Button btnRegisterNewUser = findViewById(R.id.btnLogin);
         btnRegisterNewUser.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(LoginActivity.this, RegisterActivity.class);
+                Intent i = new Intent(LoginActivity.this, CadastroActivity.class);
                 startActivity(i);
             }
         });

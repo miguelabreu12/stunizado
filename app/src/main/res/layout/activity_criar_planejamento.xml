@@ -42,22 +42,6 @@
                 android:inputType="textPersonName" />
 
             <EditText
-                android:id="@+id/etnovoplanejamento"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="Novo Planejamento"
-                android:inputType="textPersonName" />
-
-            <EditText
-                android:id="@+id/etdescricaoplanejamento"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="Descrição"
-                android:inputType="textPersonName" />
-
-            <EditText
                 android:id="@+id/etdatainicio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
