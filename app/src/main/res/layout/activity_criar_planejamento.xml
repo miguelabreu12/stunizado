@@ -58,48 +58,48 @@
                 android:inputType="textPersonName" />
 
             <CheckBox
-                android:id="@+id/checkBox7"
+                android:id="@+id/cbfisica"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="Física" />
 
             <CheckBox
-                android:id="@+id/checkBox2"
+                android:id="@+id/cbmatematica"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
                 android:text="Matemática" />
 
             <CheckBox
-                android:id="@+id/checkBox3"
+                android:id="@+id/cbbiologia"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="Biologia" />
 
             <CheckBox
-                android:id="@+id/checkBox4"
+                android:id="@+id/cbhistoria"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="História" />
 
             <CheckBox
-                android:id="@+id/checkBox5"
+                android:id="@+id/cbgeografia"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="Geografia" />
 
             <CheckBox
-                android:id="@+id/checkBox"
+                android:id="@+id/cbportugues"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Português" />
 
             <CheckBox
-                android:id="@+id/checkBox6"
+                android:id="@+id/cbquimica"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
