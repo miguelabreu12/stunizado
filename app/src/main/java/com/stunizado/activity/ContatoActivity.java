@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.example.stunizado.R;
+
 public class ContatoActivity extends AppCompatActivity {
 
     @Override

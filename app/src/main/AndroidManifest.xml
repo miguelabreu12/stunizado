@@ -8,54 +8,56 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:usesCleartextTraffic="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Stunizado"
         tools:targetApi="31" >
         <activity
-            android:name=".HomePlanejamentoActivity"
+            android:name="com.stunizado.activity.HomePlanejamentoActivity"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".CriarPlanejamentoActivity"
+            android:name="com.stunizado.activity.CriarPlanejamentoActivity"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".CadastroActivity"
+            android:name="com.stunizado.activity.CadastroActivity"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".ContatoActivity"
+            android:name="com.stunizado.activity.ContatoActivity"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".PerfilActivity"
+            android:name="com.stunizado.activity.PerfilActivity"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".LoginActivity"
+            android:name="com.stunizado.activity.LoginActivity"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.stunizado.activity.MainActivity"
+            android:theme="@android:style/Theme.NoDisplay"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

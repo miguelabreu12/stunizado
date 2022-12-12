@@ -13,7 +13,6 @@ import android.widget.Toast;
 
 import com.example.stunizado.R;
 import com.stunizado.model.CriarPlanejamentoViewModel;
-import com.stunizado.model.ViewProductViewModel;
 
 public class CriarPlanejamentoActivity extends AppCompatActivity {
 

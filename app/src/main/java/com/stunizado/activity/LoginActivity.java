@@ -90,8 +90,8 @@ public class LoginActivity extends AppCompatActivity {
                         if(aBoolean) {
 
                             // guarda os dados de login e senha dentro da app
-                            com.stunizado.produtos.util.Config.setLogin(LoginActivity.this, email);
-                            com.stunizado.produtos.util.Config.setPassword(LoginActivity.this, senha);
+                            com.stunizado.util.Config.setLogin(LoginActivity.this, email);
+                            com.stunizado.util.Config.setPassword(LoginActivity.this, senha);
 
                             // exibe uma mensagem indicando que o login deu certo
                             Toast.makeText(LoginActivity.this, "Login realizado com sucesso", Toast.LENGTH_LONG).show();
@@ -113,7 +113,7 @@ public class LoginActivity extends AppCompatActivity {
 
         // Se o usuário ainda não tem login, então ele pode ir para a tela de cadastro e criar um
         // novo usuário
-        Button btnRegisterNewUser = findViewById(R.id.btnLogin);
+        Button btnRegisterNewUser = findViewById(R.id.btnLoginCadastro);
         btnRegisterNewUser.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
